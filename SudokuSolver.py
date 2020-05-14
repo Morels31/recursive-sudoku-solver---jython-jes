@@ -97,7 +97,7 @@ def blockCheck(matr,xB,yB):
 				return 0		
 	return 1
 
-#Check the y column and x row
+#Check the x column and y row
 def rowColCheck(matr,x,y):
 	v=[0]*9
 	for xx in range(9):

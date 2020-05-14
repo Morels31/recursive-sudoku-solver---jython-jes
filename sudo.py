@@ -185,7 +185,10 @@ if int(inp)==1:
 	matr=fillMatrix()
 	print "Solving..."
 	resolve(matr)
-	showSudoku(matr)
+	if check(matr):
+		showSudoku(matr)
+	else:
+		print "There are no solutions."
 elif int(inp)==2:
 	showSudoku(matr)
 	print "Solving..."
